@@ -1,5 +1,5 @@
 (function() {
-    var NUMBER_OF_THEMES = 5;
+    var NUMBER_OF_THEMES = 6;
     var A_SECOND_IN_MILLISECONDS = 1000;
 
     var main = document.getElementById("main");
@@ -43,7 +43,7 @@
     }
 
     function addNewTheme() {
-        var newThemeNumber = Math.floor(Math.random() * NUMBER_OF_THEMES) + '';
+        var newThemeNumber = Math.floor(Math.random() * NUMBER_OF_THEMES) + 1;
 
         if (newThemeNumber == lastThemeNumber) {
             addNewTheme();

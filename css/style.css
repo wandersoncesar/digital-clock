@@ -13,6 +13,9 @@
 
     --theme-5-color-primary: #b9c6f9;
     --theme-5-color-secondary: #140f07;
+
+    --theme-6-color-primary: #c80800;
+    --theme-6-color-secondary: #000;
 }
 
 * {
@@ -192,4 +195,25 @@ body {
 .container.theme-5 .options__theme span:nth-of-type(2) {
     display: inline-block;
     background-color: var(--theme-5-color-primary);
+}
+
+/* Theme 6 */
+.container.theme-6 {
+    color: var(--theme-6-color-primary);
+    background-color: var(--theme-6-color-secondary);
+}
+
+.container.theme-6 .options__theme {
+    border: solid 3px var(--theme-6-color-primary);
+    background-color: var(--theme-6-color-secondary);
+}
+
+.container.theme-6 .options__theme span:nth-of-type(1) {
+    display: inline-block;
+    background-color: var(--theme-6-color-secondary);
+}
+
+.container.theme-6 .options__theme span:nth-of-type(2) {
+    display: inline-block;
+    background-color: var(--theme-6-color-primary);
 }
