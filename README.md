@@ -1,4 +1,4 @@
-This is a digital clock page
+This is a digital clock
 
 ## Features
 * Digital Clock
